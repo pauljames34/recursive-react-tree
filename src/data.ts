@@ -2,67 +2,67 @@ import { Tree } from "./types/types"
 
 export const mockOrgTreeList: Tree = [
     {
-      label: "Liberty Health",
+      label: "Group A",
       id: "1",
       branches: [
         {
-          label: "Pacific Northwest",
+          label: "Group B",
           id: "2",
           branches: [
             {
-              label: "East Portland Clinic",
+              label: "Item 1",
               id: "3",
               branches: [],
             },
             {
-              label: "Beaverton / Tigard",
+              label: "Item 2",
               id: "4",
               branches: []
             },
             {
-              label: "Lake Oswego Regency",
+              label: "Item 3",
               id: "5",
               branches: []
             }
           ]
         },
         {
-          label: "Alaska",
+          label: "Group C",
           id: "6",
           branches: []
         }
       ]
     },
     {
-      label: "Northstar Alliance",
+      label: "Group D",
       id: "7",
       branches: [
         {
-          label: "Chicago",
+          label: "Group E",
           id: "8",
           branches: [
             {
-              label: "Southwest Region",
+              label: "Group F",
               id: "9",
               branches: [
                 {
-                  label: "Desplains",
+                  label: "Item 1",
                   id: "10",
                   branches: []
                 },
                 {
-                  label: "Oak Lawn",
+                  label: "Item 2",
                   id: "11",
                   branches: []
                 }
               ]
             },
             {
-              label: "Northwest Region",
+              label: "Group G",
               id: "12",
               branches: [
                 {
-                  label: "East Morland",
+                  label: "Item 1",
                   id: "13",
                   branches: []
                 },
@@ -71,26 +71,26 @@ export const mockOrgTreeList: Tree = [
           ]
         },
         {
-          label: "New York",
+          label: "Group H",
           id: "14",
           branches: [
             {
-              label: "Manhattan",
+              label: "Item 20",
               id: "15",
               branches: []
             },
             {
-              label: "Queens",
+              label: "ITem 21",
               id: "16",
               branches: []
             },
             {
-              label: "5372 Arlington Heights",
+              label: "Item 22",
               id: "17",
               branches: []
             },
             {
-              label: "The Earlmore Institute of Health",
+              label: "Item 23",
               id: "18",
               branches: []
             },
